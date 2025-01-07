@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>806</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>50</y>
+     <width>511</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>Eight-way Junction</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Four-way Junction</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Three-way Junction</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Six-way Junction</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>30</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select Junstion Type</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="imageLabel">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>230</y>
+     <width>541</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Eight-way Junction.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>680</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_LT">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>170</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>60</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_T">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>170</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>60</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_RT">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>170</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>60</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_R">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>370</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>60</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_RB">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>560</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>60</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_B">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>570</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>60</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_LB">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>560</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>60</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_L">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>370</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>60</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
